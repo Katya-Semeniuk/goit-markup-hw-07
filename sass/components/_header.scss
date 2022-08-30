@@ -1,21 +1,17 @@
-.page-header {
+.header {
     background-color: $main-white-color;
 }
 
-.page-header .logo,
-.page-footer .logo {
+.logo {
     font-family: $secondary-font;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-}
-
-.logo {
     margin-right: 93px;
-
     color: $color-accent;
     text-decoration: none;
-}
+    }
+
 
 .word-header {
     color: #000000;
@@ -31,11 +27,11 @@
         }
 }
 
-.site-nav .item+.item {
+.site-nav .site-nav__item+.site-nav__item {
     margin-left: 50px;
 }
 
-.site-nav .link {
+.site-nav .site-nav__link {
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -51,7 +47,7 @@
 
 
 
-.site-nav .link.currently {
+.site-nav .site-nav__link.currently {
     position: relative;
     color: $color-accent;
     padding-left: 2px;
