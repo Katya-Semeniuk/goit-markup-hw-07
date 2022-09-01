@@ -25,9 +25,9 @@ ul {
 
 
 body {
-    color: var$main-color;
-    background-color: var$main-white-color;
-    font-family: var$primary-font;
-    font-size: var$primary-text-size;
+    color: $main-color;
+    background-color: $main-white-color;
+    font-family: $primary-font;
+    font-size: $primary-text-size;
     letter-spacing: 0.03em;
 }

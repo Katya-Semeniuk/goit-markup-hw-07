@@ -21,10 +21,10 @@ ul {
 }
 
 body {
-  color: var #212121;
-  background-color: var #ffffff;
-  font-family: var "Roboto", sans-serif;
-  font-size: var 14px;
+  color: #212121;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 
